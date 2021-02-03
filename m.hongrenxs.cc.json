@@ -1,6 +1,6 @@
 {
     "name": "红人小说",
-    "url": "m.hongrenxs.cc/",
+    "url": "m.hongrenxs.cc",
     "version": 100,
     "search": {
         "url": "https://m.hongrenxs.cc/s.html?s=${key}",
