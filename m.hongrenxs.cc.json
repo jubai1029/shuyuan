@@ -1,0 +1,27 @@
+{
+    "name": "红人小说",
+    "url": "m.hongrenxs.cc/",
+    "version": 100,
+    "search": {
+        "url": "https://m.hongrenxs.cc/s.html?s=${key}",
+        "charset": "utf-8",
+        "list": "div.searchresult > p.sone",
+        "name": "p.sone",
+        "detail": "p.sone > a"
+    },
+    "detail": {
+        "name": "div.cataloginfo > h3",
+        "catalog": "p.gochapter > a"
+    },
+    "catalog": {
+        "list": "ul.chapters > li",
+        "orderBy": 0,
+        "name": "a",
+        "chapter": "a"
+    },
+    "chapter": {
+        "content": "div#articlecontent.articlecontent > div > p",
+        "page": "p.p1.p3 > a"
+    }
+
+}
